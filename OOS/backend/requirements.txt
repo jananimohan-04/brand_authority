@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy==1.4.46
+psycopg2-binary
+python-dotenv
+pydantic
+email-validator
+python-multipart
+
