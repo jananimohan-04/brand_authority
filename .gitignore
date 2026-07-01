@@ -1,0 +1,66 @@
+# Node
+node_modules/
+.npm
+dist/
+dist-ssr/
+*.local
+
+# Python virtual environment
+OOS/backend/local_venv/
+OOS/backend/venv_new/
+OOS/venv/
+local_venv/
+venv_new/
+venv/
+.venv/
+env/
+
+# Python cache & files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+OOS/.env
+OOS/backend/.env
+
+# SQLite Database
+OOS/backend/local_syllabus.db
+local_syllabus.db
+*.db
+*.sqlite3
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
